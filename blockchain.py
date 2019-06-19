@@ -33,9 +33,9 @@ class Blockchain:
 def main():
     coin = Blockchain()
 
-    coin.addBlock(Block(1, "2019/01/02", "amount: 10"))
-    coin.addBlock(Block(2, "2019/01/03", "amount: 100"))
-    coin.addBlock(Block(3, "2019/01/04", "amount: 100"))
+    coin.addBlock(Block(1, "2019/01/02", "Yotaro: 100000"))
+    coin.addBlock(Block(2, "2019/01/03", "mayumi: 10000"))
+    coin.addBlock(Block(3, "2019/01/04", "Hitoshi: 10000"))
 
     print("chain:{}\n".format(coin.chain))
 
